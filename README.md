@@ -14,6 +14,16 @@ This service activates a virtual environment, imports database configuration fil
 5. Check if service is working sudo systemctl status example.service
 6. View journal log journalctl	-u example.service -f
 
+## Send mail on unit failure 
+
+This requires sendmail
+
+1. Config the bash script and change permission chmod +x /bin/unit-status-mail.sh
+2. Move unit-status-mail@service to /etc/systemd/system/
+
+Original code
+
+http://northernlightlabs.se/systemd.status.mail.on.unit.failure
 
 ## Useful material 
 
@@ -22,3 +32,5 @@ This service activates a virtual environment, imports database configuration fil
 [Digital Ocean - how to use systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
 [loggly - usingjournalctl](https://www.loggly.com/ultimate-guide/using-journalctl/)
+
+[Northernlightlabs.se - Systemd Status Mail On Unit Failure](http://northernlightlabs.se/systemd.status.mail.on.unit.failure)
