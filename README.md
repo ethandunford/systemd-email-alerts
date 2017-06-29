@@ -3,7 +3,7 @@
 Running python files with Systemd.
 
 ## example.service
-This service activates a virtual enviroment, imports database configuration file and runs a python script.
+This service activates a virtual environment, imports database configuration file and runs a python script.
 
 ## How to run this service
 
@@ -17,8 +17,8 @@ This service activates a virtual enviroment, imports database configuration file
 
 ## Useful material 
 
-*[Digital Ocean - systemd essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
+[Digital Ocean - systemd essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 
-*[Digital Ocean - how to use systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
+[Digital Ocean - how to use systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
-*[loggly - usingjournalctl](https://www.loggly.com/ultimate-guide/using-journalctl/)
+[loggly - usingjournalctl](https://www.loggly.com/ultimate-guide/using-journalctl/)
