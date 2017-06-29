@@ -1,0 +1,13 @@
+
+[Unit]
+Description=Test script
+After=multi-user.target
+
+[Service]
+
+Type=idle
+EnvironmentFile=/home/ethan/Documents/systemd_python/example_config
+ExecStart=/home/ethan/Documents/systemd_env/bin/python  /home/ethan/Documents/systemd_python/run.py
+
+[Install]
+WantedBy=multi.user.target

@@ -1,0 +1,1 @@
+example_db="dbname='databasename' user='databaseuser' password='databasepassword' host='databasehost'"
