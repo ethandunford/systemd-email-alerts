@@ -17,6 +17,6 @@ This service activates a virtual enviroment, imports database configuration file
 
 ## Useful material 
 
-[Digital Ocean - systemd essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
-[Digital Ocean - how to use systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
-[loggly - usingjournalctl](https://www.loggly.com/ultimate-guide/using-journalctl/)
+*[Digital Ocean - systemd essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
+*[Digital Ocean - how to use systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
+*[loggly - usingjournalctl](https://www.loggly.com/ultimate-guide/using-journalctl/)
