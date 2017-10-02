@@ -2,12 +2,13 @@
 [Unit]
 Description=Test script
 After=multi-user.target
+OnFailure=unit-status-mail@%n.service
 
 [Service]
 
 Type=idle
-EnvironmentFile=/home/ethan/Documents/systemd_python/example_config
-ExecStart=/home/ethan/Documents/systemd_env/bin/python  /home/ethan/Documents/systemd_python/run.py
+EnvironmentFile=/home/Documents/systemd_python/example_config
+ExecStart=/home/Documents/systemd_env/bin/python  /home/ethan/Documents/systemd_python/run.py
 
 [Install]
 WantedBy=multi.user.target
