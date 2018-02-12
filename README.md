@@ -6,11 +6,9 @@ Sets up email alerts for systemD scripts
 
 python setup.py youremail
 
-Original code
-
-http://northernlightlabs.se/systemd.status.mail.on.unit.failure
-
 ## Useful material
+
+[Original Code](http://northernlightlabs.se/systemd.status.mail.on.unit.failure)
 
 [Digital Ocean - systemd essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 
